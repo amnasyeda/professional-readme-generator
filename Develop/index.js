@@ -31,6 +31,12 @@ const questions = [
 		message: "Please describe your repository.",
 	},
 	{
+		type: "list",
+		name: "license",
+		message: "Please select the license you chose.",
+		choices: ["N/A", "mit", "zLib", "ncsa", "isc", "lgpl", "gpl-2.0", "gpl-3.0", "bsl-1.0", "afl-3.0"]
+	},
+	{
 		type: "input",
 		name: "installation",
 		message: "What must be installed to run this project?",
