@@ -1,9 +1,9 @@
 
-  # ReadMe Generator Test  
+  # ReadMe Generator Test File  
       [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC) 
 
   ## Description
-    This is one of the tests to identify if the readme can successfully be created. 
+    This is a sample project which is created in order to establish if the readme generator can perform its purpose. 
     [DeployedAppLink](https://github.com/amnasyeda/professional-readme-generator)
 
   ## Table of Contents
@@ -13,7 +13,7 @@
   * [Questions](#questions)
   
   ## Installation
-     node.js, inquierer
+     node.js, inquirer
 
   ## License 
      ISC 
