@@ -68,7 +68,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License 
-  ${renderLicenseSection(data.license) }
+  ${renderLicenseSection(data.license)}
 
   ## Credits
   For any questions or comments, feel free to contact me:
