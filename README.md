@@ -22,10 +22,10 @@ The user must install `npm install inquirer` once they are in the project's repo
 https://user-images.githubusercontent.com/81194686/122683486-75376e80-d1cd-11eb-89a3-dab547a0376e.mov
 
 ### Demo Image:
-![demo image](https://user-images.githubusercontent.com/81194686/122683498-9304d380-d1cd-11eb-81d3-e064ad7ae71a.png)
+![demo image](https://user-images.githubusercontent.com/81194686/122683643-93519e80-d1ce-11eb-9a37-103c8deb9208.png)
 
 ### ReadMe on GitHub:
-![readme](https://user-images.githubusercontent.com/81194686/122683506-a31cb300-d1cd-11eb-85c7-2627f20ea955.png)
+![readme](https://user-images.githubusercontent.com/81194686/122683649-9ba9d980-d1ce-11eb-8c60-58ec4270736c.png)
 
 ## License 
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
