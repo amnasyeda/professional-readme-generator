@@ -19,6 +19,6 @@
 
   ## Questions
   For any questions or comments, feel free to contact me:
-  * GitHub: [undefined](https://github.com/undefined)
+  * GitHub: [amnasyeda](https://github.com/amnasyeda)
   * E-mail: [amna.syeda98@gmail.com](mailto:amna.syeda98@gmail.com)
   
