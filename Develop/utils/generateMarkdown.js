@@ -49,11 +49,11 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
   # ${data.title}  
-      ${renderLicenseBadge(data.license)} 
+  ${renderLicenseBadge(data.license)} 
 
   ## Description
-    ${data.description}
-    [DeployedAppLink](${data.link})
+  ${data.description}
+  [Deployed Application Link](${data.link})
 
   ## Table of Contents
   * [Installation](#installation)
@@ -61,11 +61,10 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   
   ## Installation
-     ${data.installation}
+  ${data.installation}
 
   ## License 
-     ${data.license} 
-        ${renderLicenseSection(data.license) }
+  ${renderLicenseSection(data.license) }
 
   ## Questions
   For any questions or comments, feel free to contact me:
