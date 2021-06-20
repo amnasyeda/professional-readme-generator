@@ -1,0 +1,24 @@
+{
+  "name": "professional-readme-generator",
+  "version": "1.0.0",
+  "description": "[How to create a Professional README](./readme-guide.md) # professional-readme-generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amnasyeda/professional-readme-generator.git"
+  },
+  "author": "Amna Syeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amnasyeda/professional-readme-generator/issues"
+  },
+  "homepage": "https://github.com/amnasyeda/professional-readme-generator#readme",
+  "keywords": [
+    "ReadMeGenerator",
+    "node.js",
+    "inquirer"
+  ]
+}
