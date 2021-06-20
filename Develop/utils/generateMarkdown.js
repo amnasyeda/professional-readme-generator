@@ -2,12 +2,19 @@
 // If there is no license, return an empty string
 const chalk = require("chalk");
 function renderLicenseBadge(license) {
-  if (license) {
-    return '';
-  } else {
-      return '';
+if (license === "N/A") {
+    return "";
   }
-}
+if (license === "MIT") {
+    return `[https://opensource.org/licenses/MIT]`;
+} else if (license === "Apache 2.0") {
+     return `[https://www.apache.org/licenses/LICENSE-2.0]`;
+} else if (license === "GNU") {
+      return `[[https://www.gnu.org/licenses/gpl-3.0.en.html]`;
+} else if (license === "ISC") {
+      return `[https://www.isc.org/licenses/]`;
+} else if (license === "IBM") {
+      return `[https://opensource.org/licenses/IPL-1.0]`;
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -26,6 +33,10 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+    let readmeFiles = "";
+    const readmeComponents = [
+      
+    ];
    const {
      name,
      email,
