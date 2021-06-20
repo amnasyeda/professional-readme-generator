@@ -27,7 +27,7 @@ The user must install `npm install inquirer` once they are in the project's repo
 
 ## Contact 
 
-* Completed by: [amnasyeda-GitHub](https://github.com/amnasyeda)
+* Completed by: [amnasyeda](https://github.com/amnasyeda)
 * Starter code from [Xandromus](https://github.com/coding-boot-camp/potential-enigma)
 
  

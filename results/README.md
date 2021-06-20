@@ -1,10 +1,11 @@
 
   # Test ReadMe Generator  
-      [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC) 
+   [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC) 
 
   ## Description
     This is a sample readme created for a sample project in order to identify if the readme generator can succesfully create a file in the command-line.
-    [DeployedAppLink](https://amnasyeda.github.io/professional-readme-generator/)
+
+   [DeployedAppLink](https://amnasyeda.github.io/professional-readme-generator/)
 
   ## Table of Contents
   * [Installation](#installation)
