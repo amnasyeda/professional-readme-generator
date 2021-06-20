@@ -53,6 +53,7 @@ function generateMarkdown(data) {
 
   ## Description
   ${data.description}
+  
   [Deployed Application Link](${data.link})
 
   ## Table of Contents
