@@ -36,6 +36,11 @@ const questions = [
 		name: "installation",
 		message: "What must be installed to run this project?",
 	},
+	{
+		type: 'input', 
+		name: 'usage', 
+		message: 'How do users utilize this application?'   
+	},
     {
 		type: "input",
 		name: "username",
