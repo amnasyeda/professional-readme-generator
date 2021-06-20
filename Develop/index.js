@@ -7,8 +7,34 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 const questions = [
 	{
 		type: "input",
-		name: "name",
-		message: "What is your name?",
+		name: "title",
+		message: "What is the title of your project? (Required)",
+		validate: titleInput => {
+			if(titleInput) {
+				return true;
+			} else {
+				console.log("Please enter the title of your project!"); 
+				return false;
+			}
+		}
+	},
+	{
+		type: "input",
+		name: "description",
+		message: "Please describe your project. (Required)",
+		validate: descriptionInput => {
+			if(descriptionInput) {
+				return true;
+			} else {
+				console.log('Please enter a project description!'); 
+				return false;
+			}
+		}
+	},
+	{
+		type: "input",
+		name: "installation",
+		message: "What must be installed to run this project?",
 	},
     {
 		type: "input",
@@ -26,9 +52,16 @@ const questions = [
 		message: "What is the name of yout GitHub repository?",
 	},
 	{
+		type: "confirm",
+		name: "linkConfirm",
+		message: "Would you like to include a link to your deployed project?",
+		default: true,
+	},
+	{
 		type: "input",
-		name: "description",
-		message: "Please describe your repository.",
+		name: "link",
+		message: "Please enter your project's link.",
+		when: ({ linkConfirm }) => linkConfirm
 	},
 	{
 		type: "list",
@@ -36,19 +69,17 @@ const questions = [
 		message: "Please select the license you chose.",
 		choices: ["N/A", "MIT", "Apache 2.0", "GNU", "ISC", "IBM"]
 	},
-	{
-		type: "input",
-		name: "installation",
-		message: "What must be installed to run this project?",
-	},
 		];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-	fs.writeFile(fileName, data, (err, data) => {
-		return err ? err : data;
-	});
-} 
+    fs.writeFile(`./results/${fileName}`, data, err => {
+        if (err) {
+          throw err
+        };
+    console.log('README created!')
+   });
+};
 	
 // TODO: Create a function to initialize app
 function init() {
@@ -59,5 +90,6 @@ function init() {
 init().then(function(data) {
     console.log(data)
     writeToFile(fileName, data);
+	console.log(chalk.blue('Generating the README file ... !'));
       
 });
